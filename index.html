@@ -17,7 +17,7 @@
       <h1 class="display-4">Calcolo del prezzo del tuo bilgieto </h1>
 
       <div class="card m-5">
-        <form >
+       
 
           <div class="d-flex justify-content-around m-5">
             <div class="mb-3">
@@ -33,26 +33,26 @@
             <div>
               <label for="fasciaEta" class="form-label">Fascia d'età</label>
               <select class="form-select" id="fasciaEta">
-                <option value="1">Minorenne</option>
-                <option value="2">Maggiorenne</option>
-                <option value="3">Over 65</option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="over">Over 65</option>
               </select>
             </div>
           </div>
 
           <div class="m-5">
-            <button type="submit" class="btn btn-primary mx-3">Compra</button>
+            <button  id="copra" class="btn btn-primary mx-3">Compra</button>
             <input class="btn btn-warning mx-3 " type="reset" value="Reset">
           </div>
-        </form>
+        
  
       </div>
       <div class="">
         <h2 class="display-4">Il tuo biglietto</h2>
         <div class="card mx-5 py-5">
-          <h3 class="text-start mt-5 mx-5">Dettaglio passegeri</h3>
+          <h3 class="text-start mt-5 mx-5" >Dettaglio passegeri</h3>
           <div class="border border-black mx-5 d-flex" >
-            <div class="bg-secondary w-25 p-3">nome</div>
+            <div class="bg-secondary w-25 p-3" id="nameBigliettoComprato"></div>
             <div class="p-3">
               <table class="table">
                 <thead>
@@ -68,7 +68,7 @@
                     <td>tipo biglietto</td>
                     <td>nr posto</td>
                     <td>codice treno</td>
-                    <td>costo in euro</td>
+                    <td id="costo">costo in euro</td>
                   </tr>
                 </tbody>
               </table>
