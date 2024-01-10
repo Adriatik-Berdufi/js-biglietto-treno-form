@@ -1,3 +1,4 @@
+/*
 let kmDaPerCorrere = parseInt (prompt('Numero di chilometri che vuole percorrere?'));
 console.log(kmDaPerCorrere);
 let userEta = parseInt (prompt('Inserisci la tua eta'));
@@ -6,6 +7,7 @@ const prezzoPerKm = 0.21;
 console.log(prezzoPerKm);
 let prezzo;
 let prezzoFinale = document.getElementById("prezzofinale") ;
+
 
 if(isNaN(userEta) || isNaN(kmDaPerCorrere)){
     error = true;
@@ -26,4 +28,4 @@ if(!error){
         console.log(prezzo);
     }
     prezzoFinale.innerText = "il prezzo del biglietto e: " +  prezzo + "$";
-}
+}*/
