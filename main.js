@@ -21,19 +21,19 @@ compra.addEventListener('click' ,function(){
      //calocolo costo
     if(fasciaEta.value == "minorenne"){
         costo = km * prezzoPerKm * 0.8;
-        resultPrice.innerHTML = costo;  
+        resultPrice.innerHTML = costo + " $";  
         
     }else if(fasciaEta.value == "over"){
         costo = km * prezzoPerKm * 0.6;
-        resultPrice.innerHTML = costo;
+        resultPrice.innerHTML = costo + " $";
         
     }else{
         costo =  km * prezzoPerKm;
-        resultPrice.innerHTML = costo;
+        resultPrice.innerHTML = costo + " $" ;
     
     }
 
-   
+    biglietto.classList.remove("d-none");
 
 
 
