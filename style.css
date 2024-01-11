@@ -2,3 +2,19 @@ body{
     background-color: rgb(185, 20, 80, 0.5);
     color: white;
 }
+.biglietto-foto{
+    background-image: url("./img/puccio.webp");
+    background-size: cover;
+
+}
+.offete-giorno img{
+    max-width:  20vw;
+}
+.blink-hard {
+    animation: blinker 0.5s step-end infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+ }
+}
